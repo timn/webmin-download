@@ -1,0 +1,5 @@
+name=download
+desc=Download
+desc_de=Download
+depends=0.80
+category=

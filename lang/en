@@ -1,0 +1,53 @@
+
+lang=en
+author=Tim Niemueller <tim@niemueller.de>
+module_author=Tim Niemueller <tim@niemueller.de>
+homepage=http://www.niemueller.de/webmin/modules/download/
+copyright=(C) 2000 by Tim Niemueller <tim@niemueller.de>
+license=GPL
+
+index_title=Download
+index_collections=Collections
+index_nocollections=No collections defined.
+index_newcoll=Define a new collection
+index_editopt=Edit Wget options
+index_optdesc=Click on this button to define the wget settings used when a collection is been downloaded.
+
+eopt_title=Edit wget Options
+eopt_continue=Continue Download?
+eopt_numoflevels=Number of levels
+eopt_numoftries=Number of tries
+eopt_recursive=Recursive suck
+eopt_=
+eopt_=
+
+sopt_tries=Invalid number of tries.
+sopt_levels=Invalid number of levels.
+
+ecoll_title_new=Create Collection
+ecoll_title_edit=Edit Collection
+ecoll_name=Name of new collection
+ecoll_dir=Directory to download to
+ecoll_nofiles=There are no files in this collection.
+ecoll_addentry=Add URL
+ecoll_err_notexist=The collection $1 does not exist.
+ecoll_delete=Delete this collection
+ecoll_download=Download files in this collection
+ecoll_return=module index
+ecoll_url=URL
+ecoll_stop=Stop Download
+ecoll_fileman=Open Download-Dir in File Manager
+
+scoll_err_nowget=Cannot find wget. Please configure it in the module configuration manually. Maybe it is not installed.
+scoll_err_nopid=Cannot find the wget instance for this collection.
+
+dentry_err_notexist=The collection does not exist.
+
+eentry_title=Edit URL
+eentry_return=edit collection
+eentry_url=URL
+eentry_change=Change URL
+
+fileman_title=File Manager
+fileman_nojava=This module requires java to function, but your browser does not support java
+fileman_return=edit collection
